@@ -16,22 +16,25 @@
     margin: 40px 0px;
     background-image: url("../img/menu_bg.gif");
     font-size: 14.67px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .upper_menu li {
-    width: 100px;
+    width: 103px;
     height: 40px;
     margin-right: 44px;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
     line-height: 40px;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
 
 }
 
 .upper_menu li:hover {
-    width: 100px;
+    width: 103px;
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background-image: url("../img/menu_button.gif");
