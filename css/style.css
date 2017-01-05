@@ -69,14 +69,17 @@
 
 .toolbar li:hover { /* отступ и затемнение при наведении*/
     background-color: #f9f9f9;
-    color: #2c;
     padding-left: 36px;
 }
 
 .toolbar a {
-    color: inherit;
+    color: #656363;
     display: block; /* Как сделать чтоб ссылка заходила на Padding?*/
     text-decoration: none;
+}
+
+.toolbar a:hover {
+    color: #2c2c2c;
 }
 
 /*CONTENT*/
