@@ -10,7 +10,7 @@
     -webkit-box-shadow: 0px 1px 2px 1px rgba(204,204,204,1);
     -moz-box-shadow: 0px 1px 2px 1px rgba(204,204,204,1);
 }
-
+/*HEADER*/
 
 .upper_menu {
     background-image: url("../img/menu_bg.gif");
@@ -24,7 +24,7 @@
 .upper_menu li {
     border-left: 1px solid transparent; /*Прозрачные границы для стабилизации размера*/
     border-right: 1px solid transparent;
-    display: inline-block; /*для учета отступов в размере элемента*/
+    display: inline-block;
     height: 40px;
     line-height: 40px;
     margin-right: 44px;
@@ -45,22 +45,23 @@
     color: white;
     text-decoration: none;
 }
-
+/*TOOLBAR*/
 .toolbar { /*Внешняя граница*/
     border: 1px solid #c8c8c8;
+    float: left;
     width: 240px;
 }
 
 .toolbar li {
     border-bottom: 1px solid #c8c8c8;
-    box-sizing: border-box;
+    box-sizing: border-box;/*для учета отступов в размере элемента*/
     height: 40px;
     line-height: 40px;
     padding-left: 24px;
     width: 240px;
 }
 
-.toolbar li:last-child {
+.toolbar li:last-child {/*Убирание двойной рамки*/
     border-bottom: none;
 }
 
@@ -74,4 +75,38 @@
     color: inherit;
     display: block; /* Как сделать чтоб ссылка заходила на Padding?*/
     text-decoration: none;
+}
+
+/*CONTENT*/
+
+.content_box {
+    margin-left: 288px;
+    }
+
+.img_box {
+    box-sizing: border-box;
+    width: 678px;
+    height: 400px;
+    border: 1px solid #c8c8c8;
+    position: relative;
+}
+
+.goods {
+    width: 500px;
+    height: 307px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    /*margin: 40px 30px 0px 24px;*/
+    margin: 40px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 678px;
+    height: 200px;
+    padding: 0px 30px 0px 24px;
+    line-height: 21.33px;
+    font-size: 13.33px;
 }
